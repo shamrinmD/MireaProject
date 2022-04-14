@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_browser.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/content_main.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_calculate.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_music_player.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_web_view.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.5541666666666667" />
       </map>

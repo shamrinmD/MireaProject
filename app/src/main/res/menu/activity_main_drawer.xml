@@ -24,5 +24,9 @@
             android:id="@+id/webViewFragment"
             android:icon="?android:attr/actionModeWebSearchDrawable"
             android:title="Web" />
+        <item
+            android:id="@+id/musicPlayer"
+            android:icon="@drawable/music"
+            android:title="Music" />
     </group>
 </menu>
