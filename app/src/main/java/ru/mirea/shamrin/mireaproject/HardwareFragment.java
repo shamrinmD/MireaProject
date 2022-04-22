@@ -212,6 +212,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
     public void onAccuracyChanged(Sensor sensor, int i) {
 
     }
+
     @Override
     public void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
@@ -236,6 +237,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
             startActivityForResult(cameraIntent, CAMERA_REQUEST);
         }
     }
+
     private File createImageFile() throws IOException {
         String timeStamp = new SimpleDateFormat("yyyyMMdd_HHmmss").format(new Date());
         String imageFileName = "IMAGE_" + timeStamp + "_";
@@ -300,7 +302,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
         }
         return true;
     }
-
+    // Кнопка начала записи
     public void onClickStartRecord(View view) {
         try {
             startRecordButton.setEnabled(false);
@@ -311,7 +313,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
             Log.e(TAG, "Caught io exception " + e.getMessage());
         }
     }
-    // нажатие на копку стоп
+    // Кнопка остановки записи
     public void onClickStopRecord(View view) {
         startRecordButton.setEnabled(true);
         stopRecordButton.setEnabled(false);
@@ -319,6 +321,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
         stopRecording();
         processAudioFile();
     }
+
     private void startRecording() throws IOException {
         // Проверка доступности sd - карты
         String state = Environment.getExternalStorageState();
@@ -367,7 +370,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
         // оповещение системы о новом файле
         getActivity().sendBroadcast(new Intent(Intent.ACTION_MEDIA_SCANNER_SCAN_FILE, newUri));
     }
-
+    // Кнопка воспроизведения записи
     private void onClickPlay(View view) {
         try {
             mediaPlayer = new MediaPlayer();
@@ -380,7 +383,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
         playing = true;
         Toast.makeText(getActivity(), "Воспроизведение", Toast.LENGTH_SHORT).show();
     }
-
+    // Кнопка паузы воспросизведения записи
     private void onClickPause(View view) {
         if (playing == true) {
             mediaPlayer.pause();
@@ -388,7 +391,7 @@ public class HardwareFragment extends Fragment implements SensorEventListener {
         }
         Toast.makeText(getActivity(), "Пауза", Toast.LENGTH_SHORT).show();
     }
-
+    // Кнопка остановки воспроизведения записи
     private void onClickStopPlayer(View view) {
         if (playing == true) {
             mediaPlayer.stop();
