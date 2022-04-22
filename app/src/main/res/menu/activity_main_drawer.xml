@@ -28,5 +28,11 @@
             android:id="@+id/musicPlayer"
             android:icon="@drawable/music"
             android:title="Music" />
+        <item
+            android:id="@+id/hardwareFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="HardwareTest" />
+
+
     </group>
 </menu>
