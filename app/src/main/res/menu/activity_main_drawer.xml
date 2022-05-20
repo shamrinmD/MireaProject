@@ -34,10 +34,16 @@
             android:title="HardwareTest" />
         <item
             android:id="@+id/settingsFragment"
+            android:icon="@android:drawable/ic_menu_manage"
             android:title="Settings" />
         <item
             android:id="@+id/storiesFragment"
+            android:icon="?android:attr/actionModeFindDrawable"
             android:title="Story" />
+        <item
+            android:id="@+id/networkResource"
+            android:icon="@android:drawable/ic_dialog_info"
+            android:title="Network Resource" />
 
 
     </group>

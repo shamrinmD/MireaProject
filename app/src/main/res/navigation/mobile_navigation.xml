@@ -52,4 +52,9 @@
         android:name="ru.mirea.shamrin.mireaproject.StoriesFragment"
         android:label="fragment_stories"
         tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/networkResource"
+        android:name="ru.mirea.shamrin.mireaproject.NetworkResource"
+        android:label="fragment_network_resource"
+        tools:layout="@layout/fragment_network_resource" />
 </navigation>
