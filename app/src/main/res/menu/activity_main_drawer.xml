@@ -32,6 +32,12 @@
             android:id="@+id/hardwareFragment"
             android:icon="@drawable/ic_menu_camera"
             android:title="HardwareTest" />
+        <item
+            android:id="@+id/settingsFragment"
+            android:title="Settings" />
+        <item
+            android:id="@+id/storiesFragment"
+            android:title="Story" />
 
 
     </group>

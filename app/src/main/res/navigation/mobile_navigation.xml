@@ -42,4 +42,14 @@
         android:name="ru.mirea.shamrin.mireaproject.HardwareFragment"
         android:label="fragment_hardware"
         tools:layout="@layout/fragment_hardware" />
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="ru.mirea.shamrin.mireaproject.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="ru.mirea.shamrin.mireaproject.StoriesFragment"
+        android:label="fragment_stories"
+        tools:layout="@layout/fragment_stories" />
 </navigation>
