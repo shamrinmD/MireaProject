@@ -20,6 +20,9 @@
             android:name=".AddStory"
             android:exported="false" />
         <activity
+            android:name=".AddSubject"
+            android:exported="false"/>
+        <activity
             android:name=".AuthorizationActivity"
             android:exported="true">
             <intent-filter>

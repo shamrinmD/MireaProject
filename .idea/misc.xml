@@ -4,6 +4,7 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_add_story.xml" value="0.5389492753623188" />
+        <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_add_subject.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_authentication.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_browser.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/activity_main.xml" value="0.2574074074074074" />
@@ -14,9 +15,11 @@
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_network_resource.xml" value="0.5058876811594203" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_settings.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_stories.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_subjects.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/fragment_web_view.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/list_item.xml" value="0.5" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/nav_header_main.xml" value="0.5541666666666667" />
+        <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/layout/subject.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/menu/activity_main_drawer.xml" value="0.5541666666666667" />
         <entry key="..\:/Users/Larisa/AndroidStudioProjects/MireaProject/app/src/main/res/xml/paths.xml" value="0.2695035460992908" />
         <entry key="app/src/main/res/layout/list_item.xml" value="0.335" />

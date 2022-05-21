@@ -44,6 +44,10 @@
             android:id="@+id/networkResource"
             android:icon="@android:drawable/ic_dialog_info"
             android:title="Network Resource" />
+        <item
+            android:id="@+id/subjectsFragment"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Study subjects" />
 
 
     </group>

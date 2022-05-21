@@ -57,4 +57,9 @@
         android:name="ru.mirea.shamrin.mireaproject.NetworkResource"
         android:label="fragment_network_resource"
         tools:layout="@layout/fragment_network_resource" />
+    <fragment
+        android:id="@+id/subjectsFragment"
+        android:name="ru.mirea.shamrin.mireaproject.SubjectsFragment"
+        android:label="fragment_subjects"
+        tools:layout="@layout/fragment_subjects" />
 </navigation>
