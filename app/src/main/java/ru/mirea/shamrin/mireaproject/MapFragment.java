@@ -64,7 +64,7 @@ public class MapFragment extends Fragment implements DrivingSession.DrivingRoute
 
         mapView.getMap().addTapListener(this);
         mapView.getMap().addInputListener(this);
-        //setNewMark();
+
         mapObjects.addPlacemark(new Point(55.669945, 37.479492), ImageProvider.fromResource(requireContext(), R.drawable.mark));
         addNewMark("РТУ МИРЭА","14 июля 1900 года" , "г. Москва, Проспект Вернадского, д.86", new Point(55.661963, 37.476537));
         addNewMark("РТУ МИРЭА"," 16 сентября 1936 года","г. Москва, ул. Стромынка, д.20", new Point(55.794433, 37.700560));
