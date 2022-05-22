@@ -32,6 +32,8 @@ android {
 }
 
 dependencies {
+    implementation 'com.yandex.android:mapkit:3.5.0'
+    implementation 'com.yandex.android:directions:3.5.0'
     implementation 'com.google.firebase:firebase-auth:21.0.4'
     def room_version = "2.2.5"
     implementation "androidx.room:room-runtime:$room_version"

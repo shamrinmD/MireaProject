@@ -48,7 +48,10 @@
             android:id="@+id/subjectsFragment"
             android:icon="@android:drawable/ic_dialog_dialer"
             android:title="Study subjects" />
-
+        <item
+            android:id="@+id/mapFragment"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Map" />
 
     </group>
 </menu>
